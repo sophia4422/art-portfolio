@@ -1,0 +1,42 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.image-container {
+  /* container */
+
+  columns: 4;
+  column-gap: 10px;
+}
+
+.image-container .my-images {
+  /* box */
+  width: 100%;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+
+.image-container .my-images img {
+  max-width: 100%;
+}
+
+.hr-hidden {
+  color: white !important;
+}
+
+@media (max-width: 1200px) {
+  .image-container {
+    width: cal(100% - 40px);
+    columns: 3;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    columns: 2;
+  }
+}
