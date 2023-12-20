@@ -6,6 +6,10 @@
   text-transform: uppercase;
 }
 
+.bgcolour {
+  background-color: #f8f9fa;
+}
+
 .image-container {
   /* container */
 
